@@ -22,7 +22,7 @@
             <h4>Heures d'ouverture</h4>
             <p>Du Mardi au Vendredri : 8h30'- 20h</p>
             <p>Le samedi : 10h- 21h</p>
-            <p>Dimanche : Fermé</p>
+            <p>Dimanche et Lundi : Fermé</p>
         </div>
     </div>
 
