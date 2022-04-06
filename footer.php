@@ -1,13 +1,13 @@
 <footer class="bg-success text-light">
     <div class="row">
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-12 col-md-4 text-center mt-3">
             <h4>Adresse</h4>
             <p>9e Rue Lorem Ipsum</p>
             <p>8080 Townville</p>
             <p>(00228) 93 84 57 94</p>
             <p><a href="#">Mentions Légales</a></p>
         </div>
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-12 col-md-4 text-center mt-3">
             <h4>Suivez-nous</h4>
             <div class="footer-links">
                 <a href="#"><i class="bi bi-facebook"> facebook</i></a>
@@ -18,7 +18,7 @@
             </div>
 
         </div>
-        <div class="col-12 col-md-4 text-center">
+        <div class="col-12 col-md-4 text-center mt-3">
             <h4>Heures d'ouverture</h4>
             <p>Du Mardi au Vendredri : 8h30'- 20h</p>
             <p>Le samedi : 10h- 21h</p>

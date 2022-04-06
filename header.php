@@ -32,9 +32,9 @@ function menu(string $lien, string $title): string
         <nav>
             <ul class="nav nav-justified">
                 <?= menu('index.php', 'Accueil') ?>
-                <?= menu('services.php', 'Soins du corps') ?>
-                <?= menu('services.php', 'Coiffure') ?>
-                <?= menu('services.php', 'Massage et Epilation') ?>
+                <?= menu('services.php#spa', 'Spa') ?>
+                <?= menu('services.php#coiffure', 'Coiffure') ?>
+                <?= menu('services.php#massage', 'Massage et Epilation') ?>
                 <?= menu('blog.php', 'Blog') ?>
                 <?= menu('contact.php', 'Contact') ?>
             </ul>
