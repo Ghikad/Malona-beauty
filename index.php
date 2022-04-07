@@ -4,78 +4,7 @@ require 'head.php';
 require 'header.php';
 ?>
 
-<style>
-    /*Les cercles de Services */
-    .spa {
-        background: url('images/spa.jpg');
-    }
-
-    .coiffure {
-        background: url('images/coiffure.jpg');
-    }
-
-    .massage {
-        background: url('images/massage.jpg');
-    }
-
-    .epilation {
-        background: url('images/epilation.jpg');
-    }
-
-    .soins_du_visage {
-        background: url('images/soins_de_visage.jpg');
-    }
-
-    .conseils {
-        background: url('images/conseil.jpg');
-    }
-
-    .equipe .cheffe {
-        background: url('images/1.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-
-    .equipe .assistante1 {
-        background: url('images/2.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-
-    .equipe .assistante2 {
-        background: url('images/3.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-
-    .equipe .assistante3 {
-        background: url('images/4.jpg');
-        background-position: center;
-        background-size: cover;
-    }
-
-    .service-cercle {
-        width: 275px;
-        height: 275px;
-        border-radius: 50%;
-        border: 1px solid White;
-        background-position: center;
-        background-size: cover;
-        margin: 5%;
-    }
-
-    .container a {
-        text-transform: uppercase;
-        margin-left: 40%;
-        transform: translateX(-40%);
-    }
-
-    .equipe p {
-        text-align: center;
-    }
-</style>
-
-<p class="intro">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos porro architecto, excepturi laboriosam modi recusandae earum voluptates sint, unde, cum esse rem maxime quisquam tempora vero delectus dolores minus nostrum!
+<p class="intro lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos porro architecto, excepturi laboriosam modi recusandae earum voluptates sint, unde, cum esse rem maxime quisquam tempora vero delectus dolores minus nostrum!
     Mollitia eveniet dolorum numquam repellat impedit nihil architecto eligendi molestias voluptatem et labore similique vitae obcaecati minima, quibusdam laboriosam. Sit ut in labore maiores aperiam, eos rerum quibusdam eveniet veritatis!</p>
 
 <h1 class="bg-success text-light mb-3 text-center">Services</h1>

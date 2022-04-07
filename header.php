@@ -16,8 +16,8 @@ function menu(string $lien, string $title): string
 ?>
 
 <body>
-    <header>
-        <div class="row bg-success text-center text-light fixed-top">
+    <header class="container-fluid">
+        <div class="row bg-success text-center text-light">
             <div class="col-md-6 number">
                 (00228) 93 84 57 94
             </div>
@@ -30,7 +30,7 @@ function menu(string $lien, string $title): string
             </div>
         </div>
         <nav>
-            <ul class="nav nav-justified">
+            <ul class="nav nav-fill">
                 <?= menu('index.php', 'Accueil') ?>
                 <?= menu('services.php#spa', 'Spa') ?>
                 <?= menu('services.php#coiffure', 'Coiffure') ?>
@@ -42,5 +42,6 @@ function menu(string $lien, string $title): string
 
         <h1>MALONA BEAUTY</h1>
 
-        <button class="btn btn-outline-success">Prendre Rendez-vous en ligne</button>
+        <a href="contact.php" class="btn btn-outline-success">Prendre rendez-vous en ligne</a>
+
     </header>

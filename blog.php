@@ -5,16 +5,6 @@ require 'head.php';
 
 ?>
 
-<style>
-    .breadcrumb a {
-        text-decoration: none;
-    }
-
-    .breadcrumb {
-        padding: 2%;
-    }
-</style>
-
 <nav>
     <ol class="breadcrumb bg-light">
         <li class="breadcrumb-item"><a href="index.php">Accueil</a></li>
@@ -27,12 +17,12 @@ require 'head.php';
 <section class="container-fluid">
     <article class="row my-3">
         <div class="col-12 col-lg-6">
-            <img src="images/banner.jpg" alt="Buraux de Malona Beauty" class="img-fluid rounded">
+            <img src="images/banner.jpg" alt="Buraux de Malona Beauty" class="img-fluid img-thumbnails rounded">
         </div>
         <div class="col-12 col-lg-6 p-5 bg-light rounded">
-            <h3>Vous pouvez afficher votre article phare ici<h3>
-                    <p class="fs-4 fw-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quasi expedita doloribus sit, voluptates illum accusamus nemo libero sunt, autem in impedit exercitationem quibusdam assumenda quaerat delectus quia deserunt distinctio?</p>
-                    <a href="#" class="btn btn-outline-success">Lire la suite</a>
+            <h3>Vous pouvez afficher votre article phare ici</h3>
+            <p class="my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi harum corrupti est amet maiores enim molestiae! Illum ex exercitationem tempora accusamus, maxime ad laborum! In facere dolores sequi neque consectetur.</p>
+            <a href="#" class="btn btn-outline-success">Lire la suite</a>
         </div>
     </article>
 </section>
